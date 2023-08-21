@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A052A9D2A92664500247471 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A052A9C2A92664500247471 /* WidgetKit.framework */; };
+		9A052A9F2A92664500247471 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A052A9E2A92664500247471 /* SwiftUI.framework */; };
+		9A052AA22A92664500247471 /* TestWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA12A92664500247471 /* TestWidgetBundle.swift */; };
+		9A052AA42A92664500247471 /* TestWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA32A92664500247471 /* TestWidgetLiveActivity.swift */; };
+		9A052AA62A92664500247471 /* TestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA52A92664500247471 /* TestWidget.swift */; };
+		9A052AA92A92664600247471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A052AA82A92664600247471 /* Assets.xcassets */; };
+		9A052AAB2A92664600247471 /* TestWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA72A92664500247471 /* TestWidget.intentdefinition */; };
+		9A052AAC2A92664600247471 /* TestWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA72A92664500247471 /* TestWidget.intentdefinition */; };
+		9A052AAF2A92664600247471 /* TestWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9A052A9A2A92664500247471 /* TestWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9A4F61A92A93A8F4000CE67B /* DynamicFrame2Empty.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F61A82A93A8F4000CE67B /* DynamicFrame2Empty.otf */; };
+		9A4F61AA2A93A8F4000CE67B /* DynamicFrame2Empty.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F61A82A93A8F4000CE67B /* DynamicFrame2Empty.otf */; };
+		9A4F61AE2A93B0CA000CE67B /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F61AD2A93B0CA000CE67B /* Date+.swift */; };
+		9A4F61AF2A93B0CA000CE67B /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F61AD2A93B0CA000CE67B /* Date+.swift */; };
+		9AF8769F2A7DE4FA00EFC9CC /* Mirco_WidgetLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8769E2A7DE4FA00EFC9CC /* Mirco_WidgetLabApp.swift */; };
+		9AF876A12A7DE4FA00EFC9CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF876A02A7DE4FA00EFC9CC /* ContentView.swift */; };
+		9AF876A32A7DE4FD00EFC9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF876A22A7DE4FD00EFC9CC /* Assets.xcassets */; };
+		9AF876A62A7DE4FD00EFC9CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF876A52A7DE4FD00EFC9CC /* Preview Assets.xcassets */; };
+		9AF876AF2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A052AAD2A92664600247471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF876932A7DE4FA00EFC9CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A052A992A92664500247471;
+			remoteInfo = TestWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A052AB02A92664700247471 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9A052AAF2A92664600247471 /* TestWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A052A9A2A92664500247471 /* TestWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A052A9C2A92664500247471 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9A052A9E2A92664500247471 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9A052AA12A92664500247471 /* TestWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWidgetBundle.swift; sourceTree = "<group>"; };
+		9A052AA32A92664500247471 /* TestWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		9A052AA52A92664500247471 /* TestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWidget.swift; sourceTree = "<group>"; };
+		9A052AA72A92664500247471 /* TestWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TestWidget.intentdefinition; sourceTree = "<group>"; };
+		9A052AA82A92664600247471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A052AAA2A92664600247471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A052AB72A92686800247471 /* Mirco-WidgetLab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mirco-WidgetLab-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9A4F61A82A93A8F4000CE67B /* DynamicFrame2Empty.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynamicFrame2Empty.otf; sourceTree = "<group>"; };
+		9A4F61AD2A93B0CA000CE67B /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		9AF8769B2A7DE4FA00EFC9CC /* Mirco_WidgetLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirco_WidgetLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF8769E2A7DE4FA00EFC9CC /* Mirco_WidgetLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mirco_WidgetLabApp.swift; sourceTree = "<group>"; };
+		9AF876A02A7DE4FA00EFC9CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AF876A22A7DE4FD00EFC9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AF876A52A7DE4FD00EFC9CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ClockHandRotationKit.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A052A972A92664500247471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A052A9F2A92664500247471 /* SwiftUI.framework in Frameworks */,
+				9A052A9D2A92664500247471 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF876982A7DE4FA00EFC9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF876AF2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A052A9B2A92664500247471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A052A9C2A92664500247471 /* WidgetKit.framework */,
+				9A052A9E2A92664500247471 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A052AA02A92664500247471 /* TestWidget */ = {
+			isa = PBXGroup;
+			children = (
+				9A052AA12A92664500247471 /* TestWidgetBundle.swift */,
+				9A052AA32A92664500247471 /* TestWidgetLiveActivity.swift */,
+				9A052AA52A92664500247471 /* TestWidget.swift */,
+				9A052AA72A92664500247471 /* TestWidget.intentdefinition */,
+				9A052AA82A92664600247471 /* Assets.xcassets */,
+				9A052AAA2A92664600247471 /* Info.plist */,
+			);
+			path = TestWidget;
+			sourceTree = "<group>";
+		};
+		9A4F61AC2A93B0B6000CE67B /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				9A4F61A82A93A8F4000CE67B /* DynamicFrame2Empty.otf */,
+				9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		9AF876922A7DE4FA00EFC9CC = {
+			isa = PBXGroup;
+			children = (
+				9AF8769D2A7DE4FA00EFC9CC /* Mirco_WidgetLab */,
+				9A052AA02A92664500247471 /* TestWidget */,
+				9A052A9B2A92664500247471 /* Frameworks */,
+				9AF8769C2A7DE4FA00EFC9CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF8769C2A7DE4FA00EFC9CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF8769B2A7DE4FA00EFC9CC /* Mirco_WidgetLab.app */,
+				9A052A9A2A92664500247471 /* TestWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF8769D2A7DE4FA00EFC9CC /* Mirco_WidgetLab */ = {
+			isa = PBXGroup;
+			children = (
+				9A4F61AC2A93B0B6000CE67B /* Vender */,
+				9A052AB72A92686800247471 /* Mirco-WidgetLab-Info.plist */,
+				9AF8769E2A7DE4FA00EFC9CC /* Mirco_WidgetLabApp.swift */,
+				9AF876A02A7DE4FA00EFC9CC /* ContentView.swift */,
+				9AF876A22A7DE4FD00EFC9CC /* Assets.xcassets */,
+				9AF876A42A7DE4FD00EFC9CC /* Preview Content */,
+				9A4F61AD2A93B0CA000CE67B /* Date+.swift */,
+			);
+			path = Mirco_WidgetLab;
+			sourceTree = "<group>";
+		};
+		9AF876A42A7DE4FD00EFC9CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AF876A52A7DE4FD00EFC9CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A052A992A92664500247471 /* TestWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A052AB32A92664700247471 /* Build configuration list for PBXNativeTarget "TestWidgetExtension" */;
+			buildPhases = (
+				9A052A962A92664500247471 /* Sources */,
+				9A052A972A92664500247471 /* Frameworks */,
+				9A052A982A92664500247471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWidgetExtension;
+			productName = TestWidgetExtension;
+			productReference = 9A052A9A2A92664500247471 /* TestWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9AF8769A2A7DE4FA00EFC9CC /* Mirco_WidgetLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF876A92A7DE4FD00EFC9CC /* Build configuration list for PBXNativeTarget "Mirco_WidgetLab" */;
+			buildPhases = (
+				9AF876972A7DE4FA00EFC9CC /* Sources */,
+				9AF876982A7DE4FA00EFC9CC /* Frameworks */,
+				9AF876992A7DE4FA00EFC9CC /* Resources */,
+				9A052AB02A92664700247471 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A052AAE2A92664600247471 /* PBXTargetDependency */,
+			);
+			name = Mirco_WidgetLab;
+			productName = Mirco_WidgetLab;
+			productReference = 9AF8769B2A7DE4FA00EFC9CC /* Mirco_WidgetLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF876932A7DE4FA00EFC9CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9A052A992A92664500247471 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9AF8769A2A7DE4FA00EFC9CC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9AF876962A7DE4FA00EFC9CC /* Build configuration list for PBXProject "Mirco_WidgetLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AF876922A7DE4FA00EFC9CC;
+			productRefGroup = 9AF8769C2A7DE4FA00EFC9CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF8769A2A7DE4FA00EFC9CC /* Mirco_WidgetLab */,
+				9A052A992A92664500247471 /* TestWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A052A982A92664500247471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4F61AA2A93A8F4000CE67B /* DynamicFrame2Empty.otf in Resources */,
+				9A052AA92A92664600247471 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF876992A7DE4FA00EFC9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF876A62A7DE4FD00EFC9CC /* Preview Assets.xcassets in Resources */,
+				9AF876A32A7DE4FD00EFC9CC /* Assets.xcassets in Resources */,
+				9A4F61A92A93A8F4000CE67B /* DynamicFrame2Empty.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A052A962A92664500247471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A052AAB2A92664600247471 /* TestWidget.intentdefinition in Sources */,
+				9A052AA42A92664500247471 /* TestWidgetLiveActivity.swift in Sources */,
+				9A4F61AF2A93B0CA000CE67B /* Date+.swift in Sources */,
+				9A052AA62A92664500247471 /* TestWidget.swift in Sources */,
+				9A052AA22A92664500247471 /* TestWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF876972A7DE4FA00EFC9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF876A12A7DE4FA00EFC9CC /* ContentView.swift in Sources */,
+				9A052AAC2A92664600247471 /* TestWidget.intentdefinition in Sources */,
+				9AF8769F2A7DE4FA00EFC9CC /* Mirco_WidgetLabApp.swift in Sources */,
+				9A4F61AE2A93B0CA000CE67B /* Date+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A052AAE2A92664600247471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A052A992A92664500247471 /* TestWidgetExtension */;
+			targetProxy = 9A052AAD2A92664600247471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A052AB12A92664700247471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV3LVFR74A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TestWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.liangyz.Mirco-WidgetLab.TestWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A052AB22A92664700247471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KV3LVFR74A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TestWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.liangyz.Mirco-WidgetLab.TestWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AF876A72A7DE4FD00EFC9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AF876A82A7DE4FD00EFC9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AF876AA2A7DE4FD00EFC9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mirco_WidgetLab/Preview Content\"";
+				DEVELOPMENT_TEAM = KV3LVFR74A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mirco-WidgetLab-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.liangyz.Mirco-WidgetLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AF876AB2A7DE4FD00EFC9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mirco_WidgetLab/Preview Content\"";
+				DEVELOPMENT_TEAM = KV3LVFR74A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mirco-WidgetLab-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.liangyz.Mirco-WidgetLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A052AB32A92664700247471 /* Build configuration list for PBXNativeTarget "TestWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A052AB12A92664700247471 /* Debug */,
+				9A052AB22A92664700247471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF876962A7DE4FA00EFC9CC /* Build configuration list for PBXProject "Mirco_WidgetLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF876A72A7DE4FD00EFC9CC /* Debug */,
+				9AF876A82A7DE4FD00EFC9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF876A92A7DE4FD00EFC9CC /* Build configuration list for PBXNativeTarget "Mirco_WidgetLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF876AA2A7DE4FD00EFC9CC /* Debug */,
+				9AF876AB2A7DE4FD00EFC9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AF876932A7DE4FA00EFC9CC /* Project object */;
+}
