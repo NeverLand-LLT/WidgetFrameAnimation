@@ -26,13 +26,9 @@ struct Rectangle1: View {
 struct TestView: View {
     let size: CGSize = CGSize(width: 30, height: 30)
     @State var offsetX: CGFloat = 60
-    @State var scale: CGFloat = 15
+    @State var scale: CGFloat = 5
     var body: some View {
         ZStack {
-            Rectangle()
-                .frame(width: 240, height: 1)
-                .foregroundColor(.red.opacity(1))
-
             Color.orange
                 .frame(width: 240, height: 120)
                 .overlay {
@@ -45,21 +41,28 @@ struct TestView: View {
                 }
                 .clipped()
 
-            VStack {
-                Spacer()
-                Slider(value: $offsetX, in: -120 ... 240, step: 30) {
-                    Text("OffsetX")
-                } onEditingChanged: { _ in
-                }
-                .padding(.horizontal, 50)
-                .padding(.bottom, 50)
-                Slider(value: $scale, in: 0 ... 4, step: 0.001) {
-                    Text("Scale")
-                } onEditingChanged: { _ in
-                }
-                .padding(.horizontal, 50)
-                .padding(.bottom, 50)
+            controlView
+        }
+    }
+}
+
+extension TestView {
+    @ViewBuilder
+    private var controlView: some View {
+        VStack {
+            Spacer()
+            Slider(value: $offsetX, in: -120 ... 240, step: 30) {
+                Text("OffsetX")
+            } onEditingChanged: { _ in
             }
+            .padding(.horizontal, 50)
+            .padding(.bottom, 50)
+            Slider(value: $scale, in: 0 ... 4, step: 0.001) {
+                Text("Scale")
+            } onEditingChanged: { _ in
+            }
+            .padding(.horizontal, 50)
+            .padding(.bottom, 50)
         }
     }
 }

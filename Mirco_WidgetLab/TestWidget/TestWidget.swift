@@ -19,7 +19,7 @@ struct Provider: IntentTimelineProvider {
         completion(entry)
     }
 
-    func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> Void) {
+    func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<SimpleEntry>) -> Void) {
         var entries: [SimpleEntry] = []
 
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
@@ -41,45 +41,44 @@ struct SimpleEntry: TimelineEntry {
 }
 
 struct TestWidgetEntryView: View {
-    let frameCount = 2
+    let frameImages = ["0", "1", "2", "3"]
 
     var entry: Provider.Entry
     var body: some View {
         GeometryReader { proxy in
-            ZStack {
+            ZStack(alignment: .bottom) {
                 Color.green
-                ForEach(0 ... frameCount - 1, id: \.self) { index in
-                    Image("\(index)")
-                        .resizable()
-                        .scaledToFit()
-                        .mask(alignment: .center) {
-                            ZStack {
-                                Text("\(entry.date + TimeInterval(index), style: .timer)")
-                                    .multilineTextAlignment(.center)
-                                    .font(.custom("DynamicFrame2Empty", size: 50))
-                                    .opacity(1.0)
-                                    .scaleEffect(3)
-                            }
+                ForEach(frameImages.indices, id: \.self) { index in
+                    let imageDate = Date(timeInterval: TimeInterval(index), since: entry.date)
+//                    Image("\(index)")
+//                        .resizable()
+//                        .scaledToFit()
+//                        .mask(alignment: .center) {
+//                            Text(imageDate, style: .timer)
+//                                .multilineTextAlignment(.center)
+//                                .font(.custom("DynamicFrame\(frameImages.count)", size: 50))
+//                                .opacity(1.0)
+//                                .scaleEffect(3)
+//                        }
+                    Text("\(index)")
+                        .font(.system(.largeTitle))
+                        .background(Color.white)
+                        .frame(width: 100, height: 200)
+                        .mask {
+                            Text(imageDate, style: .timer)
+                                .multilineTextAlignment(.center)
+                                .font(.custom("DynamicFrame\(frameImages.count)", size: 50))
+                                .opacity(1.0)
                         }
                 }
-                .overlay(
-                    VStack(content: {
-                        Spacer()
-                        Text(entry.date, style: .time)
-                            .foregroundColor(.blue)
-                    })
-                )
+
+                Text(entry.date, style: .time)
+                    .font(.system(.body))
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.blue)
             }
             .frame(width: proxy.size.width, height: proxy.size.height, alignment: .center)
         }
-
-//            ZStack {
-//                Text(Image("2"))  + Text(Date(), style: .timer)
-//            }
-//            ZStack {
-//                Text(Image("3"))  + Text(Date(), style: .timer)
-//            }
-//        }
     }
 }
 
@@ -88,7 +87,9 @@ struct TestWidget: Widget {
 
     var body: some WidgetConfiguration {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
-            TestWidgetEntryView(entry: entry)
+//            FrameAnimationView(entry: entry) // 图片帧动画
+//            DigitalFrameAnimationView(entry: entry) //  电子时钟动画
+            ClockAnimationView(entry: entry) // 时钟动画
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")

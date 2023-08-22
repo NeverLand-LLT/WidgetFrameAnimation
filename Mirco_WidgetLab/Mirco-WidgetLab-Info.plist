@@ -5,6 +5,11 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>DynamicFrame2Empty.otf</string>
+		<string>DynamicFrame2.ttf</string>
+		<string>DynamicFrame3.ttf</string>
+		<string>DynamicFrame4.ttf</string>
+		<string>DynamicFrame5.ttf</string>
+		<string>DynamicFrame60.ttf</string>
 	</array>
 </dict>
 </plist>

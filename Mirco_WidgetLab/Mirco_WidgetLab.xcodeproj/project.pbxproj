@@ -16,8 +16,6 @@
 		9A052AAB2A92664600247471 /* TestWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA72A92664500247471 /* TestWidget.intentdefinition */; };
 		9A052AAC2A92664600247471 /* TestWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA72A92664500247471 /* TestWidget.intentdefinition */; };
 		9A052AAF2A92664600247471 /* TestWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9A052A9A2A92664500247471 /* TestWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9A4F61A92A93A8F4000CE67B /* DynamicFrame2Empty.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F61A82A93A8F4000CE67B /* DynamicFrame2Empty.otf */; };
-		9A4F61AA2A93A8F4000CE67B /* DynamicFrame2Empty.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F61A82A93A8F4000CE67B /* DynamicFrame2Empty.otf */; };
 		9A4F61AE2A93B0CA000CE67B /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F61AD2A93B0CA000CE67B /* Date+.swift */; };
 		9A4F61AF2A93B0CA000CE67B /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F61AD2A93B0CA000CE67B /* Date+.swift */; };
 		9AF8769F2A7DE4FA00EFC9CC /* Mirco_WidgetLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8769E2A7DE4FA00EFC9CC /* Mirco_WidgetLabApp.swift */; };
@@ -25,6 +23,20 @@
 		9AF876A32A7DE4FD00EFC9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF876A22A7DE4FD00EFC9CC /* Assets.xcassets */; };
 		9AF876A62A7DE4FD00EFC9CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF876A52A7DE4FD00EFC9CC /* Preview Assets.xcassets */; };
 		9AF876AF2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */; };
+		CD421AD42A944F4600D016E8 /* DynamicFrame3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421ACF2A944F4600D016E8 /* DynamicFrame3.ttf */; };
+		CD421AD52A944F4600D016E8 /* DynamicFrame3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421ACF2A944F4600D016E8 /* DynamicFrame3.ttf */; };
+		CD421AD62A944F4600D016E8 /* DynamicFrame5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421AD02A944F4600D016E8 /* DynamicFrame5.ttf */; };
+		CD421AD72A944F4600D016E8 /* DynamicFrame5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421AD02A944F4600D016E8 /* DynamicFrame5.ttf */; };
+		CD421AD82A944F4600D016E8 /* DynamicFrame4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421AD12A944F4600D016E8 /* DynamicFrame4.ttf */; };
+		CD421AD92A944F4600D016E8 /* DynamicFrame4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421AD12A944F4600D016E8 /* DynamicFrame4.ttf */; };
+		CD421ADA2A944F4600D016E8 /* DynamicFrame60.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421AD22A944F4600D016E8 /* DynamicFrame60.ttf */; };
+		CD421ADB2A944F4600D016E8 /* DynamicFrame60.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421AD22A944F4600D016E8 /* DynamicFrame60.ttf */; };
+		CD421ADC2A944F4600D016E8 /* DynamicFrame2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421AD32A944F4600D016E8 /* DynamicFrame2.ttf */; };
+		CD421ADD2A944F4600D016E8 /* DynamicFrame2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421AD32A944F4600D016E8 /* DynamicFrame2.ttf */; };
+		CD421ADF2A944F6D00D016E8 /* DynamicFrame2Empty.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD421ADE2A944F6D00D016E8 /* DynamicFrame2Empty.otf */; };
+		CD421AE02A944F6D00D016E8 /* DynamicFrame2Empty.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD421ADE2A944F6D00D016E8 /* DynamicFrame2Empty.otf */; };
+		CD421AE52A94533500D016E8 /* FrameAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD421AE32A94533500D016E8 /* FrameAnimationView.swift */; };
+		CD421AEB2A9455AF00D016E8 /* ClockAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD421AE92A9455AF00D016E8 /* ClockAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +74,6 @@
 		9A052AA82A92664600247471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A052AAA2A92664600247471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A052AB72A92686800247471 /* Mirco-WidgetLab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mirco-WidgetLab-Info.plist"; sourceTree = SOURCE_ROOT; };
-		9A4F61A82A93A8F4000CE67B /* DynamicFrame2Empty.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynamicFrame2Empty.otf; sourceTree = "<group>"; };
 		9A4F61AD2A93B0CA000CE67B /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		9AF8769B2A7DE4FA00EFC9CC /* Mirco_WidgetLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirco_WidgetLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF8769E2A7DE4FA00EFC9CC /* Mirco_WidgetLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mirco_WidgetLabApp.swift; sourceTree = "<group>"; };
@@ -70,6 +81,14 @@
 		9AF876A22A7DE4FD00EFC9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AF876A52A7DE4FD00EFC9CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ClockHandRotationKit.xcframework; sourceTree = "<group>"; };
+		CD421ACF2A944F4600D016E8 /* DynamicFrame3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynamicFrame3.ttf; sourceTree = "<group>"; };
+		CD421AD02A944F4600D016E8 /* DynamicFrame5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynamicFrame5.ttf; sourceTree = "<group>"; };
+		CD421AD12A944F4600D016E8 /* DynamicFrame4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynamicFrame4.ttf; sourceTree = "<group>"; };
+		CD421AD22A944F4600D016E8 /* DynamicFrame60.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynamicFrame60.ttf; sourceTree = "<group>"; };
+		CD421AD32A944F4600D016E8 /* DynamicFrame2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynamicFrame2.ttf; sourceTree = "<group>"; };
+		CD421ADE2A944F6D00D016E8 /* DynamicFrame2Empty.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynamicFrame2Empty.otf; sourceTree = "<group>"; };
+		CD421AE32A94533500D016E8 /* FrameAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAnimationView.swift; sourceTree = "<group>"; };
+		CD421AE92A9455AF00D016E8 /* ClockAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +128,7 @@
 				9A052AA32A92664500247471 /* TestWidgetLiveActivity.swift */,
 				9A052AA52A92664500247471 /* TestWidget.swift */,
 				9A052AA72A92664500247471 /* TestWidget.intentdefinition */,
+				CD421AE12A94531D00D016E8 /* AnimationWidget */,
 				9A052AA82A92664600247471 /* Assets.xcassets */,
 				9A052AAA2A92664600247471 /* Info.plist */,
 			);
@@ -118,7 +138,12 @@
 		9A4F61AC2A93B0B6000CE67B /* Vender */ = {
 			isa = PBXGroup;
 			children = (
-				9A4F61A82A93A8F4000CE67B /* DynamicFrame2Empty.otf */,
+				CD421ADE2A944F6D00D016E8 /* DynamicFrame2Empty.otf */,
+				CD421AD32A944F4600D016E8 /* DynamicFrame2.ttf */,
+				CD421ACF2A944F4600D016E8 /* DynamicFrame3.ttf */,
+				CD421AD12A944F4600D016E8 /* DynamicFrame4.ttf */,
+				CD421AD02A944F4600D016E8 /* DynamicFrame5.ttf */,
+				CD421AD22A944F4600D016E8 /* DynamicFrame60.ttf */,
 				9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */,
 			);
 			path = Vender;
@@ -163,6 +188,15 @@
 				9AF876A52A7DE4FD00EFC9CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD421AE12A94531D00D016E8 /* AnimationWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CD421AE32A94533500D016E8 /* FrameAnimationView.swift */,
+				CD421AE92A9455AF00D016E8 /* ClockAnimationView.swift */,
+			);
+			path = AnimationWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +280,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4F61AA2A93A8F4000CE67B /* DynamicFrame2Empty.otf in Resources */,
+				CD421ADB2A944F4600D016E8 /* DynamicFrame60.ttf in Resources */,
+				CD421AD52A944F4600D016E8 /* DynamicFrame3.ttf in Resources */,
+				CD421AD92A944F4600D016E8 /* DynamicFrame4.ttf in Resources */,
+				CD421ADD2A944F4600D016E8 /* DynamicFrame2.ttf in Resources */,
+				CD421AE02A944F6D00D016E8 /* DynamicFrame2Empty.otf in Resources */,
+				CD421AD72A944F4600D016E8 /* DynamicFrame5.ttf in Resources */,
 				9A052AA92A92664600247471 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,9 +294,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD421AD62A944F4600D016E8 /* DynamicFrame5.ttf in Resources */,
+				CD421AD42A944F4600D016E8 /* DynamicFrame3.ttf in Resources */,
 				9AF876A62A7DE4FD00EFC9CC /* Preview Assets.xcassets in Resources */,
+				CD421AD82A944F4600D016E8 /* DynamicFrame4.ttf in Resources */,
 				9AF876A32A7DE4FD00EFC9CC /* Assets.xcassets in Resources */,
-				9A4F61A92A93A8F4000CE67B /* DynamicFrame2Empty.otf in Resources */,
+				CD421ADA2A944F4600D016E8 /* DynamicFrame60.ttf in Resources */,
+				CD421ADF2A944F6D00D016E8 /* DynamicFrame2Empty.otf in Resources */,
+				CD421ADC2A944F4600D016E8 /* DynamicFrame2.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A052AAB2A92664600247471 /* TestWidget.intentdefinition in Sources */,
+				CD421AE52A94533500D016E8 /* FrameAnimationView.swift in Sources */,
 				9A052AA42A92664500247471 /* TestWidgetLiveActivity.swift in Sources */,
+				CD421AEB2A9455AF00D016E8 /* ClockAnimationView.swift in Sources */,
 				9A4F61AF2A93B0CA000CE67B /* Date+.swift in Sources */,
 				9A052AA62A92664500247471 /* TestWidget.swift in Sources */,
 				9A052AA22A92664500247471 /* TestWidgetBundle.swift in Sources */,
