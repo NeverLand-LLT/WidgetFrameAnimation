@@ -25,16 +25,18 @@ struct FrameAnimationView: View {
                         .mask(alignment: .center) {
                             Text(imageDate, style: .timer)
                                 .multilineTextAlignment(.center)
-                                .font(.custom("DynamicFrame\(frameImages.count)", size: 50))
-                                .opacity(1.0)
+                                .font(.custom("TreeNewBee\(frameImages.count)", size: 40))
                                 .scaleEffect(3)
+                                .offset(x: -40)
                         }
                 }
 
-                Text(entry.date, style: .time)
-                    .font(.system(.body))
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(.blue)
+                
+//                Text(entry.date, style: .timer)
+//                    .font(.custom("TreeNewBee\(frameImages.count)", size: 20))
+////                    .font(.system(.body))
+//                    .multilineTextAlignment(.center)
+//                    .foregroundColor(.blue)
             }
             .frame(width: proxy.size.width, height: proxy.size.height, alignment: .center)
         }

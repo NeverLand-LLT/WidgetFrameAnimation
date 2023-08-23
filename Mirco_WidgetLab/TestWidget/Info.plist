@@ -4,6 +4,16 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>TreeNewBee2.ttf</string>
+		<string>TreeNewBee3.ttf</string>
+		<string>TreeNewBee4.ttf</string>
+		<string>TreeNewBee5.ttf</string>
+		<string>TreeNewBee6.ttf</string>
+		<string>TreeNewBee8.ttf</string>
+		<string>TreeNewBee10.ttf</string>
+		<string>TreeNewBee12.ttf</string>
+		<string>TreeNewBee15.ttf</string>
+		<string>TreeNewBee24.ttf</string>
 		<string>DynamicFrame2Empty.otf</string>
 		<string>DynamicFrame2.ttf</string>
 		<string>DynamicFrame3.ttf</string>

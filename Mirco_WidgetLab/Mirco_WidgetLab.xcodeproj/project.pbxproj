@@ -10,7 +10,6 @@
 		9A052A9D2A92664500247471 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A052A9C2A92664500247471 /* WidgetKit.framework */; };
 		9A052A9F2A92664500247471 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A052A9E2A92664500247471 /* SwiftUI.framework */; };
 		9A052AA22A92664500247471 /* TestWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA12A92664500247471 /* TestWidgetBundle.swift */; };
-		9A052AA42A92664500247471 /* TestWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA32A92664500247471 /* TestWidgetLiveActivity.swift */; };
 		9A052AA62A92664500247471 /* TestWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA52A92664500247471 /* TestWidget.swift */; };
 		9A052AA92A92664600247471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A052AA82A92664600247471 /* Assets.xcassets */; };
 		9A052AAB2A92664600247471 /* TestWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9A052AA72A92664500247471 /* TestWidget.intentdefinition */; };
@@ -22,7 +21,6 @@
 		9AF876A12A7DE4FA00EFC9CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF876A02A7DE4FA00EFC9CC /* ContentView.swift */; };
 		9AF876A32A7DE4FD00EFC9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF876A22A7DE4FD00EFC9CC /* Assets.xcassets */; };
 		9AF876A62A7DE4FD00EFC9CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF876A52A7DE4FD00EFC9CC /* Preview Assets.xcassets */; };
-		9AF876AF2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */; };
 		CD421AD42A944F4600D016E8 /* DynamicFrame3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421ACF2A944F4600D016E8 /* DynamicFrame3.ttf */; };
 		CD421AD52A944F4600D016E8 /* DynamicFrame3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421ACF2A944F4600D016E8 /* DynamicFrame3.ttf */; };
 		CD421AD62A944F4600D016E8 /* DynamicFrame5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD421AD02A944F4600D016E8 /* DynamicFrame5.ttf */; };
@@ -37,6 +35,36 @@
 		CD421AE02A944F6D00D016E8 /* DynamicFrame2Empty.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD421ADE2A944F6D00D016E8 /* DynamicFrame2Empty.otf */; };
 		CD421AE52A94533500D016E8 /* FrameAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD421AE32A94533500D016E8 /* FrameAnimationView.swift */; };
 		CD421AEB2A9455AF00D016E8 /* ClockAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD421AE92A9455AF00D016E8 /* ClockAnimationView.swift */; };
+		CDB9C7EA2A959B1E00513ABE /* TreeNewBee8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7DD2A959B1D00513ABE /* TreeNewBee8.ttf */; };
+		CDB9C7EB2A959B1E00513ABE /* TreeNewBee8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7DD2A959B1D00513ABE /* TreeNewBee8.ttf */; };
+		CDB9C7EC2A959B1E00513ABE /* TreeNewBee4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7DE2A959B1D00513ABE /* TreeNewBee4.ttf */; };
+		CDB9C7ED2A959B1E00513ABE /* TreeNewBee4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7DE2A959B1D00513ABE /* TreeNewBee4.ttf */; };
+		CDB9C7EE2A959B1E00513ABE /* TreeNewBee6.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7DF2A959B1D00513ABE /* TreeNewBee6.ttf */; };
+		CDB9C7EF2A959B1E00513ABE /* TreeNewBee6.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7DF2A959B1D00513ABE /* TreeNewBee6.ttf */; };
+		CDB9C7F02A959B1E00513ABE /* TreeNewBee5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E02A959B1D00513ABE /* TreeNewBee5.ttf */; };
+		CDB9C7F12A959B1E00513ABE /* TreeNewBee5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E02A959B1D00513ABE /* TreeNewBee5.ttf */; };
+		CDB9C7F22A959B1E00513ABE /* TreeNewBee15.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E12A959B1D00513ABE /* TreeNewBee15.ttf */; };
+		CDB9C7F32A959B1E00513ABE /* TreeNewBee15.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E12A959B1D00513ABE /* TreeNewBee15.ttf */; };
+		CDB9C7F42A959B1E00513ABE /* TreeNewBee12.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E22A959B1D00513ABE /* TreeNewBee12.ttf */; };
+		CDB9C7F52A959B1E00513ABE /* TreeNewBee12.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E22A959B1D00513ABE /* TreeNewBee12.ttf */; };
+		CDB9C7F62A959B1E00513ABE /* TreeNewBee3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E32A959B1D00513ABE /* TreeNewBee3.ttf */; };
+		CDB9C7F72A959B1E00513ABE /* TreeNewBee3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E32A959B1D00513ABE /* TreeNewBee3.ttf */; };
+		CDB9C7F82A959B1E00513ABE /* TreeNewBee20.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E42A959B1D00513ABE /* TreeNewBee20.ttf */; };
+		CDB9C7F92A959B1E00513ABE /* TreeNewBee20.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E42A959B1D00513ABE /* TreeNewBee20.ttf */; };
+		CDB9C7FA2A959B1E00513ABE /* TreeNewBee2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E52A959B1D00513ABE /* TreeNewBee2.ttf */; };
+		CDB9C7FB2A959B1E00513ABE /* TreeNewBee2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E52A959B1D00513ABE /* TreeNewBee2.ttf */; };
+		CDB9C7FC2A959B1E00513ABE /* TreeNewBee60.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E62A959B1E00513ABE /* TreeNewBee60.ttf */; };
+		CDB9C7FD2A959B1E00513ABE /* TreeNewBee60.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E62A959B1E00513ABE /* TreeNewBee60.ttf */; };
+		CDB9C7FE2A959B1E00513ABE /* TreeNewBee10.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E72A959B1E00513ABE /* TreeNewBee10.ttf */; };
+		CDB9C7FF2A959B1E00513ABE /* TreeNewBee10.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E72A959B1E00513ABE /* TreeNewBee10.ttf */; };
+		CDB9C8002A959B1E00513ABE /* TreeNewBee30.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E82A959B1E00513ABE /* TreeNewBee30.ttf */; };
+		CDB9C8012A959B1E00513ABE /* TreeNewBee30.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E82A959B1E00513ABE /* TreeNewBee30.ttf */; };
+		CDB9C8022A959B1E00513ABE /* TreeNewBee24.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E92A959B1E00513ABE /* TreeNewBee24.ttf */; };
+		CDB9C8032A959B1E00513ABE /* TreeNewBee24.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C7E92A959B1E00513ABE /* TreeNewBee24.ttf */; };
+		CDB9C8042A959C1600513ABE /* ClockHandRotationKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */; };
+		CDB9C8052A959C1600513ABE /* ClockHandRotationKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDB9C8072A959C2100513ABE /* ClockHandRotationKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */; };
+		CDB9C8082A959C2100513ABE /* ClockHandRotationKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF876AE2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +89,28 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDB9C8062A959C1600513ABE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CDB9C8052A959C1600513ABE /* ClockHandRotationKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB9C8092A959C2100513ABE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CDB9C8082A959C2100513ABE /* ClockHandRotationKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -68,7 +118,6 @@
 		9A052A9C2A92664500247471 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		9A052A9E2A92664500247471 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		9A052AA12A92664500247471 /* TestWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWidgetBundle.swift; sourceTree = "<group>"; };
-		9A052AA32A92664500247471 /* TestWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWidgetLiveActivity.swift; sourceTree = "<group>"; };
 		9A052AA52A92664500247471 /* TestWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWidget.swift; sourceTree = "<group>"; };
 		9A052AA72A92664500247471 /* TestWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TestWidget.intentdefinition; sourceTree = "<group>"; };
 		9A052AA82A92664600247471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +138,19 @@
 		CD421ADE2A944F6D00D016E8 /* DynamicFrame2Empty.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DynamicFrame2Empty.otf; sourceTree = "<group>"; };
 		CD421AE32A94533500D016E8 /* FrameAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAnimationView.swift; sourceTree = "<group>"; };
 		CD421AE92A9455AF00D016E8 /* ClockAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAnimationView.swift; sourceTree = "<group>"; };
+		CDB9C7DD2A959B1D00513ABE /* TreeNewBee8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee8.ttf; sourceTree = "<group>"; };
+		CDB9C7DE2A959B1D00513ABE /* TreeNewBee4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee4.ttf; sourceTree = "<group>"; };
+		CDB9C7DF2A959B1D00513ABE /* TreeNewBee6.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee6.ttf; sourceTree = "<group>"; };
+		CDB9C7E02A959B1D00513ABE /* TreeNewBee5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee5.ttf; sourceTree = "<group>"; };
+		CDB9C7E12A959B1D00513ABE /* TreeNewBee15.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee15.ttf; sourceTree = "<group>"; };
+		CDB9C7E22A959B1D00513ABE /* TreeNewBee12.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee12.ttf; sourceTree = "<group>"; };
+		CDB9C7E32A959B1D00513ABE /* TreeNewBee3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee3.ttf; sourceTree = "<group>"; };
+		CDB9C7E42A959B1D00513ABE /* TreeNewBee20.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee20.ttf; sourceTree = "<group>"; };
+		CDB9C7E52A959B1D00513ABE /* TreeNewBee2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee2.ttf; sourceTree = "<group>"; };
+		CDB9C7E62A959B1E00513ABE /* TreeNewBee60.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee60.ttf; sourceTree = "<group>"; };
+		CDB9C7E72A959B1E00513ABE /* TreeNewBee10.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee10.ttf; sourceTree = "<group>"; };
+		CDB9C7E82A959B1E00513ABE /* TreeNewBee30.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee30.ttf; sourceTree = "<group>"; };
+		CDB9C7E92A959B1E00513ABE /* TreeNewBee24.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TreeNewBee24.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A052A9F2A92664500247471 /* SwiftUI.framework in Frameworks */,
+				CDB9C8072A959C2100513ABE /* ClockHandRotationKit.xcframework in Frameworks */,
 				9A052A9D2A92664500247471 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,7 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF876AF2A7F5C6C00EFC9CC /* ClockHandRotationKit.xcframework in Frameworks */,
+				CDB9C8042A959C1600513ABE /* ClockHandRotationKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				9A052AA12A92664500247471 /* TestWidgetBundle.swift */,
-				9A052AA32A92664500247471 /* TestWidgetLiveActivity.swift */,
 				9A052AA52A92664500247471 /* TestWidget.swift */,
 				9A052AA72A92664500247471 /* TestWidget.intentdefinition */,
 				CD421AE12A94531D00D016E8 /* AnimationWidget */,
@@ -138,6 +200,19 @@
 		9A4F61AC2A93B0B6000CE67B /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				CDB9C7E52A959B1D00513ABE /* TreeNewBee2.ttf */,
+				CDB9C7E32A959B1D00513ABE /* TreeNewBee3.ttf */,
+				CDB9C7DE2A959B1D00513ABE /* TreeNewBee4.ttf */,
+				CDB9C7E02A959B1D00513ABE /* TreeNewBee5.ttf */,
+				CDB9C7DF2A959B1D00513ABE /* TreeNewBee6.ttf */,
+				CDB9C7DD2A959B1D00513ABE /* TreeNewBee8.ttf */,
+				CDB9C7E72A959B1E00513ABE /* TreeNewBee10.ttf */,
+				CDB9C7E22A959B1D00513ABE /* TreeNewBee12.ttf */,
+				CDB9C7E12A959B1D00513ABE /* TreeNewBee15.ttf */,
+				CDB9C7E42A959B1D00513ABE /* TreeNewBee20.ttf */,
+				CDB9C7E92A959B1E00513ABE /* TreeNewBee24.ttf */,
+				CDB9C7E82A959B1E00513ABE /* TreeNewBee30.ttf */,
+				CDB9C7E62A959B1E00513ABE /* TreeNewBee60.ttf */,
 				CD421ADE2A944F6D00D016E8 /* DynamicFrame2Empty.otf */,
 				CD421AD32A944F4600D016E8 /* DynamicFrame2.ttf */,
 				CD421ACF2A944F4600D016E8 /* DynamicFrame3.ttf */,
@@ -209,6 +284,7 @@
 				9A052A962A92664500247471 /* Sources */,
 				9A052A972A92664500247471 /* Frameworks */,
 				9A052A982A92664500247471 /* Resources */,
+				CDB9C8092A959C2100513ABE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +303,7 @@
 				9AF876982A7DE4FA00EFC9CC /* Frameworks */,
 				9AF876992A7DE4FA00EFC9CC /* Resources */,
 				9A052AB02A92664700247471 /* Embed Foundation Extensions */,
+				CDB9C8062A959C1600513ABE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,11 +358,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD421ADB2A944F4600D016E8 /* DynamicFrame60.ttf in Resources */,
+				CDB9C7FF2A959B1E00513ABE /* TreeNewBee10.ttf in Resources */,
+				CDB9C7EB2A959B1E00513ABE /* TreeNewBee8.ttf in Resources */,
+				CDB9C7F52A959B1E00513ABE /* TreeNewBee12.ttf in Resources */,
+				CDB9C8032A959B1E00513ABE /* TreeNewBee24.ttf in Resources */,
+				CDB9C7FB2A959B1E00513ABE /* TreeNewBee2.ttf in Resources */,
 				CD421AD52A944F4600D016E8 /* DynamicFrame3.ttf in Resources */,
+				CDB9C8012A959B1E00513ABE /* TreeNewBee30.ttf in Resources */,
+				CDB9C7F92A959B1E00513ABE /* TreeNewBee20.ttf in Resources */,
+				CDB9C7EF2A959B1E00513ABE /* TreeNewBee6.ttf in Resources */,
+				CDB9C7F32A959B1E00513ABE /* TreeNewBee15.ttf in Resources */,
 				CD421AD92A944F4600D016E8 /* DynamicFrame4.ttf in Resources */,
+				CDB9C7FD2A959B1E00513ABE /* TreeNewBee60.ttf in Resources */,
 				CD421ADD2A944F4600D016E8 /* DynamicFrame2.ttf in Resources */,
 				CD421AE02A944F6D00D016E8 /* DynamicFrame2Empty.otf in Resources */,
+				CDB9C7ED2A959B1E00513ABE /* TreeNewBee4.ttf in Resources */,
 				CD421AD72A944F4600D016E8 /* DynamicFrame5.ttf in Resources */,
+				CDB9C7F12A959B1E00513ABE /* TreeNewBee5.ttf in Resources */,
+				CDB9C7F72A959B1E00513ABE /* TreeNewBee3.ttf in Resources */,
 				9A052AA92A92664600247471 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,9 +388,22 @@
 				CD421AD42A944F4600D016E8 /* DynamicFrame3.ttf in Resources */,
 				9AF876A62A7DE4FD00EFC9CC /* Preview Assets.xcassets in Resources */,
 				CD421AD82A944F4600D016E8 /* DynamicFrame4.ttf in Resources */,
+				CDB9C7FA2A959B1E00513ABE /* TreeNewBee2.ttf in Resources */,
+				CDB9C7F82A959B1E00513ABE /* TreeNewBee20.ttf in Resources */,
+				CDB9C7FE2A959B1E00513ABE /* TreeNewBee10.ttf in Resources */,
 				9AF876A32A7DE4FD00EFC9CC /* Assets.xcassets in Resources */,
+				CDB9C7EC2A959B1E00513ABE /* TreeNewBee4.ttf in Resources */,
+				CDB9C8002A959B1E00513ABE /* TreeNewBee30.ttf in Resources */,
+				CDB9C7F62A959B1E00513ABE /* TreeNewBee3.ttf in Resources */,
+				CDB9C7F02A959B1E00513ABE /* TreeNewBee5.ttf in Resources */,
+				CDB9C7FC2A959B1E00513ABE /* TreeNewBee60.ttf in Resources */,
 				CD421ADA2A944F4600D016E8 /* DynamicFrame60.ttf in Resources */,
+				CDB9C7F22A959B1E00513ABE /* TreeNewBee15.ttf in Resources */,
+				CDB9C7F42A959B1E00513ABE /* TreeNewBee12.ttf in Resources */,
+				CDB9C8022A959B1E00513ABE /* TreeNewBee24.ttf in Resources */,
+				CDB9C7EA2A959B1E00513ABE /* TreeNewBee8.ttf in Resources */,
 				CD421ADF2A944F6D00D016E8 /* DynamicFrame2Empty.otf in Resources */,
+				CDB9C7EE2A959B1E00513ABE /* TreeNewBee6.ttf in Resources */,
 				CD421ADC2A944F4600D016E8 /* DynamicFrame2.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +417,6 @@
 			files = (
 				9A052AAB2A92664600247471 /* TestWidget.intentdefinition in Sources */,
 				CD421AE52A94533500D016E8 /* FrameAnimationView.swift in Sources */,
-				9A052AA42A92664500247471 /* TestWidgetLiveActivity.swift in Sources */,
 				CD421AEB2A9455AF00D016E8 /* ClockAnimationView.swift in Sources */,
 				9A4F61AF2A93B0CA000CE67B /* Date+.swift in Sources */,
 				9A052AA62A92664500247471 /* TestWidget.swift in Sources */,
@@ -349,9 +451,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KV3LVFR74A;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = VX2HK7W999;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TestWidget;
@@ -364,6 +468,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.liangyz.Mirco-WidgetLab.TestWidget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Test_dev;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -376,9 +482,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KV3LVFR74A;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = VX2HK7W999;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TestWidget;
@@ -391,6 +499,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.liangyz.Mirco-WidgetLab.TestWidget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Test_dev;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -502,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -518,10 +628,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mirco_WidgetLab/Preview Content\"";
-				DEVELOPMENT_TEAM = KV3LVFR74A;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = VX2HK7W999;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mirco-WidgetLab-Info.plist";
@@ -530,6 +642,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,6 +650,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.liangyz.Mirco-WidgetLab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Test_dev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,10 +664,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mirco_WidgetLab/Preview Content\"";
-				DEVELOPMENT_TEAM = KV3LVFR74A;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = VX2HK7W999;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mirco-WidgetLab-Info.plist";
@@ -561,6 +678,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,6 +686,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.liangyz.Mirco-WidgetLab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Test_dev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

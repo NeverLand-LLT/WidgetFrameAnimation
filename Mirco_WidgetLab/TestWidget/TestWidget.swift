@@ -87,9 +87,9 @@ struct TestWidget: Widget {
 
     var body: some WidgetConfiguration {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
-//            FrameAnimationView(entry: entry) // 图片帧动画
+            FrameAnimationView(entry: entry) // 图片帧动画
 //            DigitalFrameAnimationView(entry: entry) //  电子时钟动画
-            ClockAnimationView(entry: entry) // 时钟动画
+//            ClockAnimationView(entry: entry) // 时钟动画
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
